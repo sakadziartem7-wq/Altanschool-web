@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 376px; // реальный размер 346px
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    @media (min-width: 992px) {
+        max-width: 866px;
+        padding: 0;
+    }
+}
