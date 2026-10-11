@@ -184,6 +184,7 @@ body {
 @media (max-width: 1366px) {
   .hero__img {
     width: 410px;
+    margin-left: 50px;
   }
 }
 @media (width < 992px) {
