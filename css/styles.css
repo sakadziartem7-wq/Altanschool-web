@@ -267,6 +267,7 @@ body {
     width: 152px;
     height: 32px;
     margin-left: 32px;
+    margin-top: 34px;
   }
 }
 .hero__button:hover {
