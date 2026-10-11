@@ -2,153 +2,66 @@
 
 .hero {
     overflow: hidden;
-    padding-top: 257px;
-    padding-bottom: 204px;
-    background: #FAF9F8;
-
-    @media (max-width:1366px) {
-        padding-top: 182px;
-        padding-bottom: 144px;
-    }
-
-    @media (width: 992px) {
-        padding-top: 160px;
-        padding-bottom: 101px;
-    }
-
-    @media (max-width:375px) {
-        padding-top: 102px;
-    }
+    padding-top: 102px;
+    padding-bottom: 49px;
+    background: $grey;
 
     &__flex {
         display: flex;
         align-items: center;
-
-    @media (width < 992px) {
-        align-items: flex-start;
-        }
+        flex-direction:row-reverse ;
     }
 
     &__content {
-        max-width: 1050px;
-        padding-left: 68px;
-        box-sizing: border-box;
-
-    @media (max-width:1366px) {
-        max-width: 535px;
-        padding-left: 99px;
-        }
-
-    @media (width < 992px) {
-        max-width: 519px;
-        order: 1;
-        min-width: 166px;
-        padding-left: 27px;
-        }
+        max-width: 166px;
+        padding-left: 32px;
     }
 
     &__title {
+        width: 366px;
         margin-top: 0;
-        color: #000;
+        font-size: 32px;
+        color: $text_color; 
         font-family: $font-crimson;
-        font-size: 90px;
-        font-weight: 400;
-        letter-spacing: 13px;
-        margin-bottom: 56px;
-
-    @media (max-width: 1366px) {
-        font-size: 48px;
-        letter-spacing: 1px;
-        margin-bottom: 45px;
-        }
-
-    @media (width < 992px) {
-        font-size: clamp(32px, calc(32px + (48 - 32) * (100vw - 375px) / (992 - 375)), 48px);
-        letter-spacing: 3.8px;
-        margin-bottom: 8px;
-        white-space: nowrap;
-        }
+        letter-spacing: 4.8px;
     }
 
-    &__img {
-        width: 578px;
-        background: lightgray;
-        position: relative;
+&__img {
+    display: block;
+    position: relative;
+    width: 220px;
+    height: 282px; 
+    left: 50px; 
+    margin-top: 59px;
+    object-fit: cover;
 
-    @media (max-width: 1366px) {
-        width: 410px;
-        margin-left: 50px;
-        }
-
-    @media (width < 992px) {
-        display: none;
-        }
-
-        &--rounded {
-            display: none;
-
-    @media (width < 992px) {
-        display: block;
-        width: 220px;
-        order: 2;
-        height: 282px;
-        margin-top: 43px;
-        margin-right: -23px;
-        left: 30px;
-            }
-        }
     }
 
-    &__text {
-        margin-top: 0;
-        color: #000;
-        font-size: 36px;
-        font-weight: 400;
-        font-family: $font-crimson;
+&__text {
+    color: $text_color;
+    font-family: $font-crimson;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
-    @media (max-width:1366px) {
-        font-size: 20px;
-        }
-
-    @media (max-width:375px) {
-        font-size: 14px;
-        margin-left: 32px;
-        min-width: 166px;
-        }
     }
 
-    &__button {
-        width: 291px;
-        height: 78px;
-        background-color: $color_sage;
-        border-radius: 59px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: $font-crimson;
-        color: #FFF;
-        border: none;
-        font-size: 20px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        transition: all 0.3s;
-        cursor: pointer;
+&__button {
+    border-radius: 59px;
+    background: #8E9A82;
+    width: 152px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.95px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
 
-    @media (width < 992px) {
-        width: 227px;
-        height: 43px;
-        }
-
-    @media (max-width:375px) {
-        font-size: 13px;
-        width: 152px;
-        height: 32px;
-        margin-left: 32px;
-        margin-top: 34px;
-        }
-
-    &:hover {
-        background: #709970;
-        }
     }
 }
