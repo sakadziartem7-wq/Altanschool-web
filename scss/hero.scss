@@ -25,11 +25,6 @@
         align-items: center;
 
     @media (max-width:992px) {
-        margin-left: 50px;
-        }
-
-    @media (max-width: 991px) {
-        flex-direction: row-reverse;
         align-items: flex-start;
         }
     }
@@ -46,6 +41,7 @@
 
     @media (max-width:992px) {
         max-width: 519px;
+        order: 1;
         min-width: 166px;
         padding-left: 27px;
         }
@@ -84,30 +80,21 @@
         }
 
     @media (max-width: 992px) {
-        width: 329px;
-        }
-
-    @media (max-width: 991px) {
         display: none;
-
         }
 
         &--rounded {
             display: none;
 
     @media (max-width: 992px) {
-        display: none;
-            }
-
-    @media (max-width: 991px) {
         display: block;
         width: 220px;
+        order: 2;
         height: 282px;
         margin-top: 43px;
         margin-right: -23px;
         left: 60px;
             }
-
         }
     }
 
