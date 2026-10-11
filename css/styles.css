@@ -113,7 +113,7 @@ body {
     padding-bottom: 144px;
   }
 }
-@media (max-width: 992px) {
+@media (width: 992px) {
   .hero {
     padding-top: 160px;
     padding-bottom: 101px;
@@ -128,7 +128,7 @@ body {
   display: flex;
   align-items: center;
 }
-@media (max-width: 992px) {
+@media (width < 992px) {
   .hero__flex {
     align-items: flex-start;
   }
@@ -144,7 +144,7 @@ body {
     padding-left: 99px;
   }
 }
-@media (max-width: 992px) {
+@media (width < 992px) {
   .hero__content {
     max-width: 519px;
     order: 1;
@@ -168,7 +168,7 @@ body {
     margin-bottom: 45px;
   }
 }
-@media (max-width: 992px) {
+@media (width < 992px) {
   .hero__title {
     font-size: clamp(32px, 32px + 16 * (100vw - 375px) / 617, 48px);
     letter-spacing: 3.8px;
@@ -186,7 +186,7 @@ body {
     width: 410px;
   }
 }
-@media (max-width: 992px) {
+@media (width < 992px) {
   .hero__img {
     display: none;
   }
@@ -194,7 +194,7 @@ body {
 .hero__img--rounded {
   display: none;
 }
-@media (max-width: 992px) {
+@media (width < 992px) {
   .hero__img--rounded {
     display: block;
     width: 220px;
@@ -241,7 +241,7 @@ body {
   transition: all 0.3s;
   cursor: pointer;
 }
-@media (max-width: 992px) {
+@media (width < 992px) {
   .hero__button {
     width: 227px;
     height: 43px;
