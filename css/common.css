@@ -19,5 +19,17 @@ body {
     padding: 0;
   }
 }
+@media (min-width: 1336px) {
+  .container {
+    max-width: 1044px;
+    padding: 0;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1712px;
+    padding: 0;
+  }
+}
 
 /*# sourceMappingURL=common.css.map */

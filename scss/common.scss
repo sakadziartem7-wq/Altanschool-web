@@ -17,4 +17,14 @@ body {
         max-width: 866px;
         padding: 0;
     }
+
+    @media (min-width: 1336px) {
+        max-width: 1044px;
+        padding: 0;
+    }
+
+     @media (min-width: 1920px) {
+        max-width: 1712px;
+        padding: 0;
+    }
 }
