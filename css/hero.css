@@ -7,11 +7,9 @@
 .hero__flex {
   display: flex;
   align-items: center;
-  flex-direction: row-reverse;
 }
 .hero__content {
   max-width: 166px;
-  padding-left: 32px;
   padding-bottom: 34px;
 }
 .hero__title {
@@ -58,6 +56,9 @@
   cursor: pointer;
   transition: all 0.2s;
   border: none;
+}
+.hero__button:hover {
+  background: #2b3521;
 }
 
 /*# sourceMappingURL=hero.css.map */

@@ -9,16 +9,15 @@
     &__flex {
         display: flex;
         align-items: center;
-        flex-direction:row-reverse ;
+      
     }
 
-    &__content {
+&__content {
         max-width: 166px;
-        padding-left: 32px;
         padding-bottom: 34px;
     }
 
-    &__title {
+&__title {
         width: 346px;
         margin-top: 0;
         margin-bottom: 59px;
@@ -67,5 +66,8 @@
     transition: all 0.2s;
     border: none;
 
+&:hover {
+        background: #2b3521;
+    }
     }
 }
