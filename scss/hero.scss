@@ -15,11 +15,14 @@
     &__content {
         max-width: 166px;
         padding-left: 32px;
+        padding-bottom: 34px;
     }
 
     &__title {
-        width: 366px;
+        width: 346px;
         margin-top: 0;
+        margin-bottom: 59px;
+        white-space: nowrap;
         font-size: 32px;
         color: $text_color; 
         font-family: $font-crimson;
@@ -38,13 +41,14 @@
     }
 
 &__text {
+    width: 166px;
+    margin: 0;
+    margin-bottom: 13px;
     color: $text_color;
     font-family: $font-crimson;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-
     }
 
 &__button {
