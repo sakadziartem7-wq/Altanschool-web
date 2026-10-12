@@ -5,12 +5,6 @@
     padding-bottom: 38px;
     overflow: hidden;
 
-
-    &__flex {
-        display: flex;
-        gap: 6px; 
-    }
-
     &__title {
         margin-top: 0;
         margin-bottom: 25px;
@@ -22,26 +16,31 @@
         letter-spacing: 3px;
     }
 
+    &__wrap {
+        height: 136px;
+        position: relative;
+    }
+
+    &__flex {
+        display: flex;
+        gap: 6px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__img {
+        width: 133px;
+        height: 136px;
+
+        &--ex {
+            width: 105px;
+        }
+    }
+
     &__banner {
+        margin-top: 10px;
         width: 100%;
         height: auto;
     }
-
-
-    &__img {
-        flex-shrink: 0;
-        width: 133px;
-
-        &--eucalyptus {
-            position: relative;
-            width: 105px;
-            height: 136px;
-        
-        }
-        &--palm {
-          width: 105px;
-          height: 136px;
-        }
-    }
-
 }

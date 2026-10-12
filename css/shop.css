@@ -3,10 +3,6 @@
   padding-bottom: 38px;
   overflow: hidden;
 }
-.shop__flex {
-  display: flex;
-  gap: 6px;
-}
 .shop__title {
   margin-top: 0;
   margin-bottom: 25px;
@@ -17,22 +13,28 @@
   font-weight: 400;
   letter-spacing: 3px;
 }
-.shop__banner {
-  width: 100%;
-  height: auto;
+.shop__wrap {
+  height: 136px;
+  position: relative;
+}
+.shop__flex {
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .shop__img {
-  flex-shrink: 0;
   width: 133px;
-}
-.shop__img--eucalyptus {
-  position: relative;
-  width: 105px;
   height: 136px;
 }
-.shop__img--palm {
+.shop__img--ex {
   width: 105px;
-  height: 136px;
+}
+.shop__banner {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=shop.css.map */

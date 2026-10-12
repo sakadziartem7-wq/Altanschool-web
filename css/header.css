@@ -5,7 +5,7 @@
   width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
-  background: #D9D9D9;
+  background: #FAF9F8;
 }
 @media (min-width: 992px) {
   .header {
@@ -89,7 +89,7 @@
   display: inline-block;
   width: 41px;
   height: 5px;
-  background-color: #D9D9D9;
+  background-color: #FAF9F8;
 }
 
 /*# sourceMappingURL=header.css.map */
