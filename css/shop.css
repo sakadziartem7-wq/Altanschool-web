@@ -1,74 +1,38 @@
 .shop {
-  padding-top: 80px;
+  padding-top: 19px;
+  padding-bottom: 38px;
   overflow: hidden;
-}
-@media (max-width: 375px) {
-  .shop {
-    padding-top: 19px;
-  }
 }
 .shop__flex {
   display: flex;
-  gap: 26px;
-  margin-bottom: 22px;
-}
-@media (max-width: 1366px) {
-  .shop__flex {
-    gap: 16px;
-  }
-}
-@media (max-width: 992px) {
-  .shop__flex {
-    gap: 12px;
-  }
+  gap: 6px;
 }
 .shop__title {
   margin-top: 0;
-  text-align: center;
+  margin-bottom: 25px;
+  color: #000000;
   font-family: "Crimson Text";
-  color: #000;
   text-align: center;
-  font-size: 48px;
+  font-size: 20px;
   font-weight: 400;
-  letter-spacing: 7.2px;
-}
-@media (max-width: 1366px) {
-  .shop__title {
-    font-size: 32px;
-    letter-spacing: 4.8px;
-  }
-}
-@media (max-width: 992px) {
-  .shop__title {
-    max-width: 311px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (max-width: 992px) {
-  .shop__title {
-    font-size: 20px;
-    letter-spacing: 3px;
-  }
+  letter-spacing: 3px;
 }
 .shop__banner {
   width: 100%;
   height: auto;
 }
 .shop__img {
-  width: 100%;
-  min-width: 0;
-  height: auto;
+  flex-shrink: 0;
+  width: 133px;
 }
-@media (max-width: 375px) {
-  .shop__img--eucalyptus {
-    margin-left: -65px;
-  }
+.shop__img--eucalyptus {
+  position: relative;
+  width: 105px;
+  height: 136px;
 }
-@media (max-width: 375px) {
-  .shop__img--palm {
-    margin-right: -65px;
-  }
+.shop__img--palm {
+  width: 105px;
+  height: 136px;
 }
 
 /*# sourceMappingURL=shop.css.map */
