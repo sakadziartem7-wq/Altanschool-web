@@ -135,6 +135,7 @@ body {
 .hero__flex {
   display: flex;
   align-items: center;
+  padding-left: 13px;
 }
 .hero__content {
   max-width: 166px;
@@ -143,19 +144,19 @@ body {
 .hero__title {
   width: 346px;
   margin-top: 0;
-  margin-bottom: 59px;
+  margin-bottom: 13px;
   white-space: nowrap;
   font-size: 32px;
   color: #000000;
   font-family: "Crimson Text";
-  letter-spacing: 4.8px;
+  letter-spacing: 4px;
 }
 .hero__img {
   display: block;
   position: relative;
   width: 220px;
   height: 282px;
-  left: 50px;
+  left: 2%;
   margin-top: 59px;
   object-fit: cover;
 }

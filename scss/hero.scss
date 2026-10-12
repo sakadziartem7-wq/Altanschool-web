@@ -9,7 +9,7 @@
     &__flex {
         display: flex;
         align-items: center;
-      
+        padding-left: 13px;
     }
 
 &__content {
@@ -20,12 +20,12 @@
 &__title {
         width: 346px;
         margin-top: 0;
-        margin-bottom: 59px;
+        margin-bottom: 13px;
         white-space: nowrap;
         font-size: 32px;
         color: $text_color; 
         font-family: $font-crimson;
-        letter-spacing: 4.8px;
+        letter-spacing: 4px;
     }
 
 &__img {
@@ -33,7 +33,7 @@
     position: relative;
     width: 220px;
     height: 282px; 
-    left: 50px; 
+    left: 2%; 
     margin-top: 59px;
     object-fit: cover;
 
