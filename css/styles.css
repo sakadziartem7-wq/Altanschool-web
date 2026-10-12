@@ -153,6 +153,17 @@ body {
   .hero__flex {
     flex-direction: row-reverse;
     padding-left: 0;
+    gap: 27px;
+  }
+}
+@media (min-width: 1336px) {
+  .hero__flex {
+    gap: 99px;
+  }
+}
+@media (min-width: 1920px) {
+  .hero__flex {
+    gap: 68px;
   }
 }
 .hero__content {
@@ -169,7 +180,6 @@ body {
 @media (min-width: 1920px) {
   .hero__content {
     max-width: 1066px;
-    padding-left: 68px;
   }
 }
 .hero__title {
@@ -225,7 +235,6 @@ body {
     display: block;
     width: 320px;
     height: 330px;
-    margin-right: 27px;
     margin-top: 0;
   }
 }
@@ -233,7 +242,6 @@ body {
   .hero__img--plant {
     width: 410px;
     height: 422px;
-    margin-right: 99px;
   }
 }
 @media (min-width: 1920px) {
