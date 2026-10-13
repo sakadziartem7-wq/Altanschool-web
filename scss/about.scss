@@ -1,0 +1,63 @@
+@use "variables" as *;
+
+.about {
+  padding-top: 22px;
+  padding-bottom: 90px;
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 992px) {
+      flex-direction: row;
+      align-items: stretch;
+    }
+
+  }
+
+  &__img {
+    order: 1;
+    width: 198px;
+    height: 250px;
+    margin-top: 33px;
+  }
+
+  &__content {
+    display: contents;
+    padding: 0;
+    max-width: 283px;
+
+    @media (min-width: 992px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: $text_color;
+    font-family: $font-crimson;
+    letter-spacing: 15%;
+  }
+
+  &__text {
+    margin-top: 0;
+    max-width: 283px;
+    font-size: 16px;
+  }
+
+  &__subtext {
+    order: 2;
+    font-size: 15px;
+    margin-top: 33px;
+    max-width: 280px;
+  }
+
+  &__button {
+    order: 2;
+  }
+}
