@@ -462,13 +462,13 @@ body {
 @media (min-width: 992px) {
   .collection {
     padding-top: 62px;
-    padding-bottom: 183px;
+    padding-bottom: 0;
   }
 }
 @media (min-width: 1336px) {
   .collection {
     padding-top: 82px;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
   }
 }
 .collection__title {
@@ -643,6 +643,12 @@ body {
   .about {
     padding-top: 107px;
     padding-bottom: 263px;
+  }
+}
+@media (min-width: 1920px) {
+  .about {
+    padding-top: 160px;
+    padding-bottom: 177px;
   }
 }
 @media (min-width: 1336px) {
@@ -831,6 +837,13 @@ body {
   .about__button {
     width: 205px;
     height: 59px;
+  }
+}
+@media (min-width: 1920px) {
+  .about__button {
+    width: 357px;
+    height: 47px;
+    font-size: 36px;
   }
 }
 .about__button:hover {

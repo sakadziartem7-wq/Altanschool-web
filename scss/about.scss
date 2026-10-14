@@ -15,6 +15,11 @@
       padding-bottom: 263px;
     }
 
+     @media (min-width: 1920px) {
+      padding-top: 160px;
+      padding-bottom: 177px;
+    }
+
     &__container {        
     @media (min-width: 1336px) {
         max-width: 1176px;
@@ -188,6 +193,13 @@
             width: 205px;
             height: 59px;
         }
+
+         @media (min-width: 1920px) {
+            width: 357px;
+            height: 47px;
+            font-size: 36px;
+        }
+
 
     &:hover {
       border: #2b3323;
