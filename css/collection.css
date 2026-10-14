@@ -1,7 +1,10 @@
 .collection {
+  margin-top: -5px;
   padding-top: 38px;
+  padding-bottom: 60px;
   overflow: hidden;
-  background: #DBDBDB;
+  background: #F1F1F1;
+  position: relative;
 }
 @media (min-width: 992px) {
   .collection {
@@ -24,6 +27,7 @@
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 15%;
+  text-transform: uppercase;
 }
 @media (min-width: 992px) {
   .collection__title {
@@ -39,7 +43,6 @@
 .collection__wrap {
   height: 179px;
   position: relative;
-  margin-top: -90px;
   z-index: 2;
 }
 @media (min-width: 992px) {
@@ -62,7 +65,7 @@
   display: flex;
   align-items: center;
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   gap: 28px;
@@ -120,12 +123,12 @@
   }
 }
 .collection__banner {
-  padding-top: 100px;
-  padding-bottom: 134px;
   background: #DBDBDB;
   height: 205px;
-  position: relative;
-  z-index: 1;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
 }
 @media (min-width: 992px) {
   .collection__banner {
@@ -146,15 +149,15 @@
   }
 }
 .collection__text {
-  margin-top: 25px;
+  margin: 25px auto 0;
   text-align: center;
   font-size: 15px;
   letter-spacing: 15%;
   max-width: 298px;
-  margin-left: auto;
-  margin-right: auto;
   color: #000000;
   font-family: "Crimson Text";
+  position: relative;
+  z-index: 1;
 }
 @media (min-width: 992px) {
   .collection__text {

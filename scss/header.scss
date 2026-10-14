@@ -2,6 +2,7 @@
 
 .header {
     position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
     width: 100%;
@@ -33,37 +34,37 @@
         text-decoration: none;
         font-family: $font-crimson;
 
-    @media (min-width: 1920px) {
-        font-size: 32px;
+        @media (min-width: 1920px) {
+            font-size: 32px;
         }
     }
 
     &__menu {
         display: none;
 
-    @media (min-width: 992px) {
-        margin-left: auto;
-        width: 453px;
-        display: flex;
-        justify-content: space-between;
+        @media (min-width: 992px) {
+            margin-left: auto;
+            width: 453px;
+            display: flex;
+            justify-content: space-between;
         }
 
-         @media (min-width: 1920px) {
+        @media (min-width: 1920px) {
             width: 885px;
         }
     }
 
     &__link {
-    @media (min-width: 992px) {
-        font-size: 16px;
-        color: $text_color;
-        font-family: $font-crimson;
-        text-transform: uppercase;
-        text-decoration: none;
+        @media (min-width: 992px) {
+            font-size: 16px;
+            color: $text_color;
+            font-family: $font-crimson;
+            text-transform: uppercase;
+            text-decoration: none;
         }
 
-     @media (min-width: 1920px) {
-        font-size: 32px;
+        @media (min-width: 1920px) {
+            font-size: 32px;
         }    
     }
 
@@ -80,8 +81,8 @@
         align-items: center;
         justify-content: space-between;
 
-    @media (min-width: 992px) {
-        display: none;
+        @media (min-width: 992px) {
+            display: none;
         }
 
         span {

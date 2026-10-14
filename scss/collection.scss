@@ -1,19 +1,22 @@
  @use "variables" as *;
  
  .collection {
+    margin-top: -5px;
     padding-top: 38px;
+    padding-bottom: 60px;
     overflow: hidden;
-    background: #DBDBDB;
+    background: #F1F1F1;
+    position: relative;
 
-        @media (min-width: 992px) {
-            padding-top: 62px;
-            padding-bottom: 0;
-        }
+    @media (min-width: 992px) {
+        padding-top: 62px;
+        padding-bottom: 0;
+    }
 
-         @media (min-width: 1336px) {
-            padding-top: 82px;
-           padding-bottom: 0px;
-        }
+    @media (min-width: 1336px) {
+        padding-top: 82px;
+        padding-bottom: 0px;
+    }
 
     &__title {
         text-align: center;
@@ -24,6 +27,7 @@
         font-weight: 400;
         font-size: 20px;
         letter-spacing: 15%;
+        text-transform: uppercase;
 
         @media (min-width: 992px) {
            font-size: 32px;
@@ -38,7 +42,6 @@
     &__wrap {
         height: 179px;
         position: relative;
-        margin-top: -90px;
         z-index: 2;
 
         @media (min-width: 992px) {
@@ -59,7 +62,7 @@
         display: flex;
         align-items: center;
         position: absolute;
-        top:50%;
+        top: 0;
         left: 50%;
         transform: translateX(-50%);
         gap: 28px;
@@ -96,29 +99,28 @@
             width: 150px;
             height: 154px;
 
-        @media (min-width: 992px) {
-            width: 261px;
-        }
+            @media (min-width: 992px) {
+                width: 261px;
+            }
 
-        @media (min-width: 1336px) {
-            width: 338px;
-        }
+            @media (min-width: 1336px) {
+                width: 338px;
+            }
 
-        @media (min-width: 1920px) {
-            width: 502px;
-            height: 506px;
-        }
+            @media (min-width: 1920px) {
+                width: 502px;
+                height: 506px;
+            }
         }
      }
 
-     &__banner {
-        padding-top: 100px;
-        padding-bottom: 134px;
+    &__banner {
         background: #DBDBDB;
         height: 205px;
-        position: relative;
-        z-index: 1;
-
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
         
         @media (min-width: 992px) {
             height: 316px;
@@ -137,15 +139,15 @@
     }
 
     &__text {
-        margin-top: 25px;
+        margin: 25px auto 0;
         text-align: center;
         font-size: 15px;
         letter-spacing: 15%;
         max-width: 298px;
-        margin-left: auto;
-        margin-right: auto;
         color: $text_color;
         font-family: $font-crimson;
+        position: relative;
+        z-index: 1;
 
         @media (min-width: 992px) {
            font-size: 32px;

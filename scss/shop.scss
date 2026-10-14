@@ -2,20 +2,19 @@
 
 .shop {
     padding-top: 19px;
-    padding-bottom: 38px;
     overflow: hidden;
 
-        @media (min-width: 992px) {
-            padding-top: 78px;
-        }
+    @media (min-width: 992px) {
+        padding-top: 78px;
+    }
 
-        @media (min-width: 1336px) {
-            padding-top: 60px;
-        }
-        
+    @media (min-width: 1336px) {
+        padding-top: 60px;
+    }
+
     @media (min-width: 1920px) {
         padding-top: 80px;
-        }
+    }
 
     &__title {
         margin-top: 0;
@@ -26,6 +25,7 @@
         font-size: 20px;
         font-weight: 400;
         letter-spacing: 3px;
+        text-transform: uppercase;
 
         @media (min-width: 992px) {
             max-width: 311px;
