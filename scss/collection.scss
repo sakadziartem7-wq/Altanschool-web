@@ -46,7 +46,6 @@
 
         @media (min-width: 992px) {
             height: 264px;
-            margin-top: -130px;
         }
 
          @media (min-width: 992px) {
@@ -101,6 +100,7 @@
 
             @media (min-width: 992px) {
                 width: 261px;
+                height: 263px;
             }
 
             @media (min-width: 1336px) {
@@ -124,17 +124,14 @@
         
         @media (min-width: 992px) {
             height: 316px;
-            padding-top: 150px;
         }
 
          @media (min-width: 1336px) {
            height: 443px;
-           padding-top: 200px;
         }
 
         @media (min-width: 1920px) {
             height: 605px;
-            padding-top: 300px;
         }
     }
 
@@ -152,6 +149,8 @@
         @media (min-width: 992px) {
            font-size: 32px;
            max-width: 748px;
+           margin-bottom: 71px;
+           margin-top: 0;
         }
 
          @media (min-width: 1336px) {

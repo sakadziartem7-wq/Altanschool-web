@@ -96,6 +96,7 @@
   }
 
   &__title {
+    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 20px;
@@ -128,6 +129,7 @@
 
        @media (min-width: 992px) {
           font-size: 20px;
+          text-align: left;
           max-width: 562px;
           margin-bottom: 17px;
         }
@@ -154,6 +156,7 @@
       @media (min-width: 992px) {
           font-size: 20px;
           max-width: 562px;
+          text-align: left;
           margin-top: 0;
         }
 
