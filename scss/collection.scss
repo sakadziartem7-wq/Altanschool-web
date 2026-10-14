@@ -2,8 +2,8 @@
  
  .collection {
     padding-top: 38px;
-    padding-bottom: 62px;
     overflow: hidden;
+    background: #DBDBDB;
 
         @media (min-width: 992px) {
             padding-top: 62px;
@@ -94,6 +94,7 @@
 
         &--ex {
             width: 150px;
+            height: 154px;
 
         @media (min-width: 992px) {
             width: 261px;
@@ -136,7 +137,7 @@
     }
 
     &__text {
-        margin-top: 0;
+        margin-top: 25px;
         text-align: center;
         font-size: 15px;
         letter-spacing: 15%;
