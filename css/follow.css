@@ -28,6 +28,7 @@
   letter-spacing: 3px;
   color: #000000;
   font-family: "Crimson Text";
+  margin-bottom: 33px;
 }
 .follow__img {
   position: relative;
@@ -44,13 +45,31 @@
   gap: 9px;
 }
 .form__input {
-  width: 257px;
   height: 81px;
   border-radius: 10px;
   border: 5px solid #8E9A82;
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
+  padding: 12px 6px 50px;
+  box-sizing: border-box;
+}
+.form__input::placeholder {
+  color: #000000;
+  font-family: "Crimson Text";
+}
+.form__textarea {
+  border-radius: 10px;
+  border: 5px solid #8E9A82;
+  height: 130px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form__textarea::placeholder {
+  color: #000000;
+  font-family: "Crimson Text";
 }
 .form__button {
   width: 257px;

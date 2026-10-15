@@ -33,6 +33,7 @@
         letter-spacing: 3px;
         color: $text_color;
         font-family: $font-crimson;
+        margin-bottom: 33px;
     }
 
     &__img {
@@ -51,17 +52,37 @@
     gap: 9px;
 
     &__input {
-        width: 257px;
         height: 81px;
         border-radius: 10px;
         border: 5px solid #8E9A82;
         font-size: 15px;
         font-weight: 400;
         line-height: normal;
+         padding: 12px 6px 50px;
+        box-sizing: border-box;
+
+    
+    &::placeholder {
+        color: $text_color;
+        font-family: $font-crimson;
+        }
 
     }
 
     &__textarea {
+        border-radius: 10px;
+        border: 5px solid #8E9A82;
+        height: 130px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    &::placeholder {
+        color: $text_color;
+        font-family: $font-crimson;
+    }
+
     }
 
     &__button {
