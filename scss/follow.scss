@@ -26,6 +26,12 @@
             width: 298px;
             height: 100%;
         }
+
+           
+          @media (min-width: 1336px) {
+            width: 429px;
+          
+        }
     }
 
     &__flex {
@@ -39,6 +45,11 @@
             flex-direction: row;
             gap: 50px;
         }
+
+        
+          @media (min-width: 1336px) {
+            gap: 62px;
+        }
     }
 
     &__info {
@@ -47,6 +58,10 @@
 
         @media (min-width: 992px) {
             max-width: 436px;
+        }
+
+          @media (min-width: 1336px) {
+            max-width: 561px;
         }
     }
 
@@ -79,6 +94,12 @@
             width: 302px;
             height: 429px;
             margin-top: 0;
+        }
+
+         
+          @media (min-width: 1336px) {
+            width: 439px;
+            height: 624px;
         }
     }
 }
@@ -138,7 +159,7 @@
         margin-top: 41px;
         border-radius: 10px;
         background: #8E9A82;
-        color: $text_color;
+        color: #ffff;
         font-family: $font-crimson;
         font-size: 15px;
         cursor: pointer;
@@ -154,6 +175,12 @@
            height: 45px;
            margin-top: 32px;
            font-size: 20px;
+        }
+
+           
+          @media (min-width: 1336px) {
+            width: 205px;
+            height: 59px;
         }
     }
 }

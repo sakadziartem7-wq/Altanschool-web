@@ -26,6 +26,11 @@
     height: 100%;
   }
 }
+@media (min-width: 1336px) {
+  .follow__banner {
+    width: 429px;
+  }
+}
 .follow__flex {
   position: relative;
   z-index: 2;
@@ -39,6 +44,11 @@
     gap: 50px;
   }
 }
+@media (min-width: 1336px) {
+  .follow__flex {
+    gap: 62px;
+  }
+}
 .follow__info {
   width: 100%;
   max-width: 257px;
@@ -46,6 +56,11 @@
 @media (min-width: 992px) {
   .follow__info {
     max-width: 436px;
+  }
+}
+@media (min-width: 1336px) {
+  .follow__info {
+    max-width: 561px;
   }
 }
 .follow__title {
@@ -78,6 +93,12 @@
     width: 302px;
     height: 429px;
     margin-top: 0;
+  }
+}
+@media (min-width: 1336px) {
+  .follow__img {
+    width: 439px;
+    height: 624px;
   }
 }
 
@@ -134,7 +155,7 @@
   margin-top: 41px;
   border-radius: 10px;
   background: #8E9A82;
-  color: #000000;
+  color: white;
   font-family: "Crimson Text";
   font-size: 15px;
   cursor: pointer;
@@ -150,6 +171,12 @@
     height: 45px;
     margin-top: 32px;
     font-size: 20px;
+  }
+}
+@media (min-width: 1336px) {
+  .form__button {
+    width: 205px;
+    height: 59px;
   }
 }
 
