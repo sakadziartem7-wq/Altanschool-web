@@ -28,7 +28,16 @@
 
         @media (min-width: 1336px) {
             width: 429px;
+        }
 
+        @media (min-width: 1920px) {
+           width: 575px;
+        }
+    }
+
+    &__container {
+        @media (min-width: 1920px) {
+           max-width: 1490px;
         }
     }
 
@@ -48,6 +57,10 @@
         @media (min-width: 1336px) {
             gap: 62px;
         }
+
+          @media (min-width: 1920px) {
+            gap: 217px;
+        }
     }
 
     &__info {
@@ -61,10 +74,15 @@
         @media (min-width: 1336px) {
             max-width: 561px;
         }
+
+        @media (min-width: 1920px) {
+           max-width: 617px;
+        }
     }
 
     &__title {
         text-align: center;
+        text-transform: uppercase;
         margin-top: 0;
         font-size: 20px;
         font-weight: 700;
@@ -77,6 +95,12 @@
             font-size: 32px;
             text-align: left;
         }
+
+        @media (min-width: 1920px) {
+            font-size: 48px;
+            margin-bottom: 74px;
+        }
+
     }
 
     &__img {
@@ -98,6 +122,11 @@
             width: 439px;
             height: 624px;
         }
+
+          @media (min-width: 1920px) {
+            width: 657px;
+            height: 934px;
+        }
     }
 }
 
@@ -106,6 +135,10 @@
     flex-direction: column;
     gap: 9px;
     width: 100%;
+
+     @media (min-width: 1920px) {
+            gap: 14px;
+    }
 
     &__input {
         width: 100%;
@@ -116,7 +149,6 @@
         font-weight: 400;
         line-height: normal;
         padding: 12px 6px 50px;
-        box-sizing: border-box;
 
         &::placeholder {
             color: $text_color;
@@ -125,6 +157,16 @@
 
         @media (min-width: 992px) {
             font-size: 20px;
+            height: 63px;
+        }
+
+        @media (min-width: 1336px) {
+            height: 81px;
+        }
+
+        @media (min-width: 1920px) {
+            font-size: 36px;
+            height: 121px;
         }
     }
 
@@ -147,6 +189,16 @@
 
         @media (min-width: 992px) {
             font-size: 20px;
+            height: 101px;
+        }
+
+        @media (min-width: 1336px) {
+            height: 130px;
+        }
+
+        @media (min-width: 1920px) {
+            font-size: 36px;
+            height: 194px;
         }
     }
 
@@ -177,6 +229,12 @@
         @media (min-width: 1336px) {
             width: 205px;
             height: 59px;
+        }
+
+        @media (min-width: 1336px) {
+            width: 371px;
+            height: 88px;
+            font-size: 36px;
         }
     }
 }

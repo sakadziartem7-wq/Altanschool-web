@@ -31,6 +31,16 @@
     width: 429px;
   }
 }
+@media (min-width: 1920px) {
+  .follow__banner {
+    width: 575px;
+  }
+}
+@media (min-width: 1920px) {
+  .follow__container {
+    max-width: 1490px;
+  }
+}
 .follow__flex {
   position: relative;
   z-index: 2;
@@ -50,6 +60,11 @@
     gap: 62px;
   }
 }
+@media (min-width: 1920px) {
+  .follow__flex {
+    gap: 217px;
+  }
+}
 .follow__info {
   width: 100%;
   max-width: 257px;
@@ -64,8 +79,14 @@
     max-width: 561px;
   }
 }
+@media (min-width: 1920px) {
+  .follow__info {
+    max-width: 617px;
+  }
+}
 .follow__title {
   text-align: center;
+  text-transform: uppercase;
   margin-top: 0;
   font-size: 20px;
   font-weight: 700;
@@ -78,6 +99,12 @@
   .follow__title {
     font-size: 32px;
     text-align: left;
+  }
+}
+@media (min-width: 1920px) {
+  .follow__title {
+    font-size: 48px;
+    margin-bottom: 74px;
   }
 }
 .follow__img {
@@ -102,12 +129,23 @@
     height: 624px;
   }
 }
+@media (min-width: 1920px) {
+  .follow__img {
+    width: 657px;
+    height: 934px;
+  }
+}
 
 .form {
   display: flex;
   flex-direction: column;
   gap: 9px;
   width: 100%;
+}
+@media (min-width: 1920px) {
+  .form {
+    gap: 14px;
+  }
 }
 .form__input {
   width: 100%;
@@ -118,7 +156,6 @@
   font-weight: 400;
   line-height: normal;
   padding: 12px 6px 50px;
-  box-sizing: border-box;
 }
 .form__input::placeholder {
   color: #000000;
@@ -127,6 +164,18 @@
 @media (min-width: 992px) {
   .form__input {
     font-size: 20px;
+    height: 63px;
+  }
+}
+@media (min-width: 1336px) {
+  .form__input {
+    height: 81px;
+  }
+}
+@media (min-width: 1920px) {
+  .form__input {
+    font-size: 36px;
+    height: 121px;
   }
 }
 .form__textarea {
@@ -148,6 +197,18 @@
 @media (min-width: 992px) {
   .form__textarea {
     font-size: 20px;
+    height: 101px;
+  }
+}
+@media (min-width: 1336px) {
+  .form__textarea {
+    height: 130px;
+  }
+}
+@media (min-width: 1920px) {
+  .form__textarea {
+    font-size: 36px;
+    height: 194px;
   }
 }
 .form__button {
@@ -178,6 +239,13 @@
   .form__button {
     width: 205px;
     height: 59px;
+  }
+}
+@media (min-width: 1336px) {
+  .form__button {
+    width: 371px;
+    height: 88px;
+    font-size: 36px;
   }
 }
 
