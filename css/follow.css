@@ -9,6 +9,18 @@
     padding-top: 105px;
   }
 }
+@media (min-width: 1336px) {
+  .follow {
+    padding-top: 144px;
+    padding-bottom: 204px;
+  }
+}
+@media (min-width: 1920px) {
+  .follow {
+    padding-top: 213px;
+    padding-bottom: 230px;
+  }
+}
 .follow__banner {
   position: absolute;
   left: 0;
@@ -239,13 +251,15 @@
   .form__button {
     width: 205px;
     height: 59px;
+    margin-top: 41px;
   }
 }
-@media (min-width: 1336px) {
+@media (min-width: 1920px) {
   .form__button {
     width: 371px;
     height: 88px;
     font-size: 36px;
+    margin-top: 74px;
   }
 }
 
