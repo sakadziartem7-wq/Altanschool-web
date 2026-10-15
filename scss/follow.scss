@@ -6,10 +6,9 @@
     padding-bottom: 68px;
     background: #F1F1F1;
 
-        @media (min-width: 992px) {
-            padding-top: 105px;
-  
-        }
+    @media (min-width: 992px) {
+        padding-top: 105px;
+    }
 
     &__banner {
         position: absolute;
@@ -26,10 +25,10 @@
             width: 298px;
             height: 100%;
         }
-      
-          @media (min-width: 1336px) {
+
+        @media (min-width: 1336px) {
             width: 429px;
-          
+
         }
     }
 
@@ -42,9 +41,11 @@
 
         @media (min-width: 992px) {
             flex-direction: row;
+            justify-content: space-between;
             gap: 50px;
-        }     
-          @media (min-width: 1336px) {
+        }
+
+        @media (min-width: 1336px) {
             gap: 62px;
         }
     }
@@ -57,7 +58,7 @@
             max-width: 436px;
         }
 
-          @media (min-width: 1336px) {
+        @media (min-width: 1336px) {
             max-width: 561px;
         }
     }
@@ -73,7 +74,7 @@
         margin-bottom: 33px;
 
         @media (min-width: 992px) {
-            font-size: 32px; 
+            font-size: 32px;
             text-align: left;
         }
     }
@@ -92,8 +93,8 @@
             height: 429px;
             margin-top: 0;
         }
-     
-          @media (min-width: 1336px) {
+
+        @media (min-width: 1336px) {
             width: 439px;
             height: 624px;
         }
@@ -123,7 +124,7 @@
         }
 
         @media (min-width: 992px) {
-           font-size: 20px;
+            font-size: 20px;
         }
     }
 
@@ -145,7 +146,7 @@
         }
 
         @media (min-width: 992px) {
-           font-size: 20px;
+            font-size: 20px;
         }
     }
 
@@ -167,14 +168,13 @@
         }
 
         @media (min-width: 992px) {
-           width: 436px;
-           height: 45px;
-           margin-top: 32px;
-           font-size: 20px;
+            width: 436px;
+            height: 45px;
+            margin-top: 32px;
+            font-size: 20px;
         }
 
-           
-          @media (min-width: 1336px) {
+        @media (min-width: 1336px) {
             width: 205px;
             height: 59px;
         }

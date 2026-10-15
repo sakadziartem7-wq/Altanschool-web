@@ -1,6 +1,6 @@
- @use "variables" as *;
- 
- .collection {
+@use "variables" as *;
+
+.collection {
     margin-top: -5px;
     padding-top: 38px;
     padding-bottom: 60px;
@@ -18,12 +18,11 @@
         padding-bottom: 150px;
     }
 
-      @media (min-width: 1920px) {
+    @media (min-width: 1920px) {
         padding-top: 122px;
         padding-bottom: 133px;
     }
     
-
     &__title {
         text-align: center;
         margin-top: 0;
@@ -36,8 +35,8 @@
         text-transform: uppercase;
 
         @media (min-width: 992px) {
-           font-size: 32px;
-           margin-bottom: 79px;
+            font-size: 32px;
+            margin-bottom: 79px;
         }
 
         @media (min-width: 1920px) {
@@ -63,7 +62,7 @@
         }
     }
 
-     &__flex {
+    &__flex {
         display: flex;
         align-items: center;
         position: absolute;
@@ -72,20 +71,20 @@
         transform: translateX(-50%);
         gap: 28px;
 
-         @media (min-width: 992px) {
-           gap: 55px;
+        @media (min-width: 992px) {
+            gap: 55px;
         }
 
-         @media (min-width: 1336px) {
-            gap: 72px
+        @media (min-width: 1336px) {
+            gap: 72px; 
         }
-     }
+    }
 
-     &__img {
+    &__img {
         width: 177px;
         height: 179px;
 
-         @media (min-width: 992px) {
+        @media (min-width: 992px) {
             width: 262px;
             height: 264px;
         }
@@ -119,7 +118,7 @@
                 height: 506px;
             }
         }
-     }
+    }
 
     &__banner {
         background: #DBDBDB;
@@ -133,8 +132,8 @@
             height: 316px;
         }
 
-         @media (min-width: 1336px) {
-           height: 443px;
+        @media (min-width: 1336px) {
+            height: 443px;
         }
 
         @media (min-width: 1920px) {
@@ -154,12 +153,12 @@
         z-index: 1;
 
         @media (min-width: 992px) {
-           font-size: 32px;
+            font-size: 32px;
             max-width: 748px;
             margin-top: 47px;
         }
 
-         @media (min-width: 1336px) {
+        @media (min-width: 1336px) {
             max-width: 962px;
             margin-top: 62px;
         }
@@ -170,4 +169,4 @@
             margin-top: 94px;
         }
     }
- }
+}

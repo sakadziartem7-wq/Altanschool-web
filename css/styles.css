@@ -864,7 +864,7 @@ body {
   }
 }
 .about__button:hover {
-  border: #2b3323;
+  border-color: #2b3323;
 }
 
 .follow {
@@ -910,6 +910,7 @@ body {
 @media (min-width: 992px) {
   .follow__flex {
     flex-direction: row;
+    justify-content: space-between;
     gap: 50px;
   }
 }
