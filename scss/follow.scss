@@ -6,6 +6,11 @@
     padding-bottom: 68px;
     background: #F1F1F1;
 
+        @media (min-width: 992px) {
+            padding-top: 105px;
+  
+        }
+
     &__banner {
         position: absolute;
         left: 0;
@@ -14,26 +19,51 @@
         height: 340px;
         background: #DBDBDB;
         z-index: 1;
+
+        @media (min-width: 992px) {
+            left: auto;
+            right: 0;
+            width: 298px;
+            height: 100%;
+        }
     }
 
     &__flex {
+        position: relative;
+        z-index: 2;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @media (min-width: 992px) {
+            flex-direction: row;
+            gap: 50px;
+        }
     }
 
     &__info {
+        width: 100%;
         max-width: 257px;
+
+        @media (min-width: 992px) {
+            max-width: 436px;
+        }
     }
 
     &__title {
         text-align: center;
+        margin-top: 0;
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 3px;
         color: $text_color;
         font-family: $font-crimson;
         margin-bottom: 33px;
+
+        @media (min-width: 992px) {
+            font-size: 32px; 
+            text-align: left;
+        }
     }
 
     &__img {
@@ -43,6 +73,13 @@
         width: 243px;
         height: 345px;
         margin-top: 64px;
+        flex-shrink: 0;
+
+        @media (min-width: 992px) {
+            width: 302px;
+            height: 429px;
+            margin-top: 0;
+        }
     }
 }
 
@@ -50,39 +87,49 @@
     display: flex;
     flex-direction: column;
     gap: 9px;
+    width: 100%;
 
     &__input {
+        width: 100%;
         height: 81px;
         border-radius: 10px;
         border: 5px solid #8E9A82;
         font-size: 15px;
         font-weight: 400;
         line-height: normal;
-         padding: 12px 6px 50px;
+        padding: 12px 6px 50px;
         box-sizing: border-box;
 
-    
-    &::placeholder {
-        color: $text_color;
-        font-family: $font-crimson;
+        &::placeholder {
+            color: $text_color;
+            font-family: $font-crimson;
         }
 
+        @media (min-width: 992px) {
+           font-size: 20px;
+        }
     }
 
     &__textarea {
+        width: 100%;
         border-radius: 10px;
         border: 5px solid #8E9A82;
+        padding: 12px 6px 50px;
         height: 130px;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        box-sizing: border-box;
 
-    &::placeholder {
-        color: $text_color;
-        font-family: $font-crimson;
-    }
+        &::placeholder {
+            color: $text_color;
+            font-family: $font-crimson;
+        }
 
+        @media (min-width: 992px) {
+           font-size: 20px;
+        }
     }
 
     &__button {
@@ -91,12 +138,22 @@
         margin-top: 41px;
         border-radius: 10px;
         background: #8E9A82;
+        color: $text_color;
+        font-family: $font-crimson;
+        font-size: 15px;
         cursor: pointer;
-        transition: all 0,3s;
+        transition: all 0.3s;
         border: none;
 
-    &:hover {
-        background:#3a4134 ;
+        &:hover {
+            background: #3a4134;
+        }
+
+        @media (min-width: 992px) {
+           width: 436px;
+           height: 45px;
+           margin-top: 32px;
+           font-size: 20px;
         }
     }
 }

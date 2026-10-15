@@ -873,6 +873,11 @@ body {
   padding-bottom: 68px;
   background: #F1F1F1;
 }
+@media (min-width: 992px) {
+  .follow {
+    padding-top: 105px;
+  }
+}
 .follow__banner {
   position: absolute;
   left: 0;
@@ -882,22 +887,51 @@ body {
   background: #DBDBDB;
   z-index: 1;
 }
+@media (min-width: 992px) {
+  .follow__banner {
+    left: auto;
+    right: 0;
+    width: 298px;
+    height: 100%;
+  }
+}
 .follow__flex {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 992px) {
+  .follow__flex {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
 .follow__info {
+  width: 100%;
   max-width: 257px;
+}
+@media (min-width: 992px) {
+  .follow__info {
+    max-width: 436px;
+  }
 }
 .follow__title {
   text-align: center;
+  margin-top: 0;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 3px;
   color: #000000;
   font-family: "Crimson Text";
   margin-bottom: 33px;
+}
+@media (min-width: 992px) {
+  .follow__title {
+    font-size: 32px;
+    text-align: left;
+  }
 }
 .follow__img {
   position: relative;
@@ -906,14 +940,24 @@ body {
   width: 243px;
   height: 345px;
   margin-top: 64px;
+  flex-shrink: 0;
+}
+@media (min-width: 992px) {
+  .follow__img {
+    width: 302px;
+    height: 429px;
+    margin-top: 0;
+  }
 }
 
 .form {
   display: flex;
   flex-direction: column;
   gap: 9px;
+  width: 100%;
 }
 .form__input {
+  width: 100%;
   height: 81px;
   border-radius: 10px;
   border: 5px solid #8E9A82;
@@ -927,18 +971,31 @@ body {
   color: #000000;
   font-family: "Crimson Text";
 }
+@media (min-width: 992px) {
+  .form__input {
+    font-size: 20px;
+  }
+}
 .form__textarea {
+  width: 100%;
   border-radius: 10px;
   border: 5px solid #8E9A82;
+  padding: 12px 6px 50px;
   height: 130px;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  box-sizing: border-box;
 }
 .form__textarea::placeholder {
   color: #000000;
   font-family: "Crimson Text";
+}
+@media (min-width: 992px) {
+  .form__textarea {
+    font-size: 20px;
+  }
 }
 .form__button {
   width: 257px;
@@ -946,12 +1003,23 @@ body {
   margin-top: 41px;
   border-radius: 10px;
   background: #8E9A82;
+  color: #000000;
+  font-family: "Crimson Text";
+  font-size: 15px;
   cursor: pointer;
-  transition: all 0, 3s;
+  transition: all 0.3s;
   border: none;
 }
 .form__button:hover {
   background: #3a4134;
+}
+@media (min-width: 992px) {
+  .form__button {
+    width: 436px;
+    height: 45px;
+    margin-top: 32px;
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
