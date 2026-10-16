@@ -42,6 +42,19 @@
     &__menu {
         display: none;
 
+    &--open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 24px 0;
+        background: $grey;
+    }
+
         @media (min-width: 992px) {
             margin-left: auto;
             width: 453px;
@@ -55,14 +68,12 @@
     }
 
     &__link {
-        @media (min-width: 992px) {
             font-size: 16px;
             color: $text_color;
             font-family: $font-crimson;
             text-transform: uppercase;
             text-decoration: none;
-        }
-
+   
         @media (min-width: 1920px) {
             font-size: 32px;
         }    
