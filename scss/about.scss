@@ -12,12 +12,12 @@
 
     @media (min-width: 1336px) {
         padding-top: 107px;
-        padding-bottom: 263px;
+        padding-bottom: 128px;
     }
 
     @media (min-width: 1920px) {
         padding-top: 160px;
-        padding-bottom: 177px;
+        padding-bottom: 103px;
     }
 
     &__container {        
@@ -187,6 +187,7 @@
         transition: all 0.4s;
         border-radius: 10px;
         border: 5px solid #8E9A82;
+        text-transform: uppercase;
 
         @media (min-width: 992px) {
             width: 201px;
@@ -201,7 +202,7 @@
 
         @media (min-width: 1920px) {
             width: 357px;
-            height: 47px;
+            height: 88px;
             font-size: 36px;
         }
 
