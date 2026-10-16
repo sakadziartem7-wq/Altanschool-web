@@ -72,6 +72,7 @@
         @media (min-width: 992px) {
             flex-direction: row;
             justify-content: space-between;
+            align-items: flex-start;
             gap: 50px;
         }
 
@@ -107,6 +108,7 @@
         margin-top: 0;
         font-size: 20px;
         font-weight: 700;
+        line-height:normal;
         letter-spacing: 3px;
         color: $text_color;
         font-family: $font-crimson;
@@ -125,8 +127,6 @@
     }
 
     &__img {
-        position: relative;
-        z-index: 2;
         display: block;
         width: 243px;
         height: 345px;
@@ -142,11 +142,15 @@
         @media (min-width: 1336px) {
             width: 439px;
             height: 624px;
+            margin-top: -79px;
+            margin-bottom: -131px;
         }
 
           @media (min-width: 1920px) {
             width: 657px;
             height: 934px;
+            margin-top: -118px;
+            margin-bottom: -142px;
         }
     }
 }
@@ -259,7 +263,8 @@
             font-size: 36px;
             margin-top: 74px;
         }
-
-
     }
 }
+.follow__flex { outline: 2px solid red; }
+.follow__title { outline: 2px solid blue; }
+.follow__img { outline: 2px solid lime; }
