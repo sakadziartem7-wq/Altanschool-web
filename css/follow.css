@@ -6,20 +6,20 @@
 }
 @media (min-width: 992px) {
   .follow {
-    padding-top: 105px;
-    padding-bottom: 131px;
+    padding-top: 89px;
+    padding-bottom: 104px;
   }
 }
 @media (min-width: 1336px) {
   .follow {
-    padding-top: 144px;
-    padding-bottom: 204px;
+    padding-top: 79px;
+    padding-bottom: 131px;
   }
 }
 @media (min-width: 1920px) {
   .follow {
-    padding-top: 213px;
-    padding-bottom: 230px;
+    padding-top: 118px;
+    padding-bottom: 142px;
   }
 }
 .follow__banner {
@@ -150,16 +150,12 @@
   .follow__img {
     width: 439px;
     height: 624px;
-    margin-top: -79px;
-    margin-bottom: -131px;
   }
 }
 @media (min-width: 1920px) {
   .follow__img {
     width: 657px;
     height: 934px;
-    margin-top: -118px;
-    margin-bottom: -142px;
   }
 }
 
