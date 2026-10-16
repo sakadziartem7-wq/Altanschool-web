@@ -7,6 +7,7 @@
 @media (min-width: 992px) {
   .follow {
     padding-top: 105px;
+    padding-bottom: 131px;
   }
 }
 @media (min-width: 1336px) {
@@ -46,6 +47,16 @@
 @media (min-width: 1920px) {
   .follow__banner {
     width: 575px;
+  }
+}
+@media (min-width: 992px) {
+  .follow__container {
+    max-width: 788px;
+  }
+}
+@media (min-width: 1336px) {
+  .follow__container {
+    max-width: 1061px;
   }
 }
 @media (min-width: 1920px) {
