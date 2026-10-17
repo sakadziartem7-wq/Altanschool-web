@@ -2,6 +2,7 @@
 
 const form = document.querySelector('.form');
 const resultContainer = document.querySelector('.follow__result');
+const info = document.querySelector('.follow__info');
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
@@ -20,4 +21,10 @@ form.addEventListener('submit', function(event) {
         <p>Email: ${email}</p>
         <p>Сообщение: ${message}</p>
     `;
+
+       info.innerHTML = '';
+    const welcome = document.createElement('h2');
+    welcome.className = 'follow__title';
+    welcome.textContent = `Добро пожаловать, ${name}!`;
+    info.append(welcome);
 });
